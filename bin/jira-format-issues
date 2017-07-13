@@ -134,7 +134,6 @@ class IssueRenderer
         service = fields['customfield_10413']['value']
         customer = fields['customfield_10401']['value']
         
-        
         created = DateTime.parse(fields['created'])
         updated = DateTime.parse(fields['updated'])
 
